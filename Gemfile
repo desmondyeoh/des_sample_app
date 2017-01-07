@@ -5,6 +5,7 @@ gem 'rails', '4.0.8'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
+  gem 'test-unit'
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
 end
